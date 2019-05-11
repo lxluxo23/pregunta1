@@ -13,11 +13,10 @@ public MiString (String frase){
 
 public boolean esPalindroma1(){
     Pila p1 = new Pila();
-    //Pila p2 = new Pila;
     
     
+         StringBuilder builder = new StringBuilder(frase);
          
-         StringBuilder builder=new StringBuilder(frase);
          String invertida=builder.reverse().toString();
          
          if (frase.equals(invertida)){
